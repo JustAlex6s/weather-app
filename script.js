@@ -36,15 +36,12 @@ document.getElementById('weatherForm').addEventListener('submit', function (e) {
                     
                     const temperature = (forecast.main.temp - 273.15).toFixed(0);
                     const description = forecast.weather[0].description;
-                    const iconUrl = weatherIcons[description.toLowerCase()];
                     const humidity = forecast.main.humidity;
-
                     const cardContent = document.createElement('div');
                     cardContent.classList.add('forecast-card'); // Add the 'forecast-card' class
                     cardContent.innerHTML = `
                         <p>${date.toLocaleDateString()}</p>
                         <p>${temperature}°C</p>
-                        <img src="${iconUrl}" alt="${description}" />
                         <p>${description}</p>
                         <p>Humidity: ${humidity}%</p>
                     `;
