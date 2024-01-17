@@ -1,0 +1,90 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f0f8ff;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: #333 !important;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.NeonButton {
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #1e9bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #135a8b;
+}
+
+#containerId {
+  display: flex; /* Utilisation de flexbox pour aligner en ligne */
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.forecast-card {
+  width: 200px;
+  margin: 20px 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.imgVille {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+p {
+  margin: 5px 0;
+}
+
+img.weather-icon {
+  max-width: 50px;
+  height: auto;
+}/*# sourceMappingURL=style.css.map */
